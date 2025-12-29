@@ -9,8 +9,11 @@ check.addEventListener("click",function(){
         alert("Hii, Boss ")
         document.body.style.backgroundColor = "RoyalBlue"
         console.log("Hii, Akash")
-    } 
-    else {
+    } else if( pass.value == "neeraj123"){
+        alert("Hii, Neeraj")
+        document.body.style.backgroundColor = "Green"
+        console.log("Hii, Neeraj")
+    } else {
         alert("Bhaag Jao")
         document.body.style.backgroundColor = "Red"
         console.log("Who are You..???")
